@@ -1,5 +1,5 @@
 {
-  "name": "ksoksos",
+  "name": "tst-next-edge-repo",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
-  },
+  ,"deploy":"azioncli edge_applications publish"},
   "dependencies": {
     "next": "^12",
     "react": "^18",

@@ -1,0 +1,22 @@
+{
+  "name": "next-m1",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "deploy": "azioncli edge_applications publish"
+  },
+  "dependencies": {
+    "next": "13.4.8",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.4.5",
+    "@types/react": "18.2.17",
+    "typescript": "5.1.6"
+  }
+}
